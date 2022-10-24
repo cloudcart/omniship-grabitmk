@@ -1,0 +1,25 @@
+{
+    "name": "awsbg/omniship-grabitmk",
+
+    "description": "PHP library to communicate with the MK logistics, powered by GrabIT.",
+
+    "require": {
+      "php": "^7",
+      "simexis/omniship": "dev-master"
+    },
+
+    "license": "LGPL-2.1",
+
+    "autoload": {
+      "psr-4": {
+        "Omniship\\Grabitmk\\": "src"
+      }
+    },
+
+	"authors": [
+        {
+            "name": "Stoyan Stoimenov",
+            "email": "s.stoimenovbg@gmail.com"
+        }
+    ]
+}
